@@ -105,14 +105,14 @@ analytics:
 # Site Author
 author:
   name             : "Sicheng He"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/selfie.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "utterly fail"
   location         : "LA, California, USA"
   email            : "hesicheng20@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:hesicheng20@gmail.com"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:hesicheng20@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hesic73.github.io"
@@ -125,6 +125,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hesic73/"
+    - label: "Zhihu"
+      icon: "fab fa-fw fa-zhihu"
+      url: "https://www.zhihu.com/people/he-si-cheng"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -286,7 +289,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      show_date: true
       comments: # true
       share: true
       related: true
