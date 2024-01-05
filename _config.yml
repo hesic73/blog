@@ -1,1 +1,12 @@
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+title: Sicheng He's blog
+
+author :
+  name : Sicheng He
+  email : hesicheng20@gmail.com
+  github : hesic73
+
+
+pulgins:
+  - jekyll-include-cache

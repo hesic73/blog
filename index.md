@@ -1,5 +1,6 @@
+```
 ---
-title: Welcome to my blog
+layout: page
+title: Sicheng He's blog
 ---
-
-
+```
