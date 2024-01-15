@@ -99,9 +99,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-N6QXXZN5WM
     anonymize_ip         : # true, false (default)
 
 
@@ -150,6 +150,9 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
+    - label: "Zhihu"
+      icon: "fab fa-fw fa-zhihu"
+      url: "https://www.zhihu.com/people/he-si-cheng"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
